@@ -200,7 +200,7 @@ function runAppointmentTests() {
             <div class="test-fail">✗ ${error.message}</div>
         `;
     }
-    
+     
     // Teste 2: Verificar filtro de status
     try {
         const statusFilter = document.getElementById('filterStatus');
